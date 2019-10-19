@@ -2,15 +2,15 @@
 
 1. What is a function literal?
 
--A function literal is an unnamed function, it is used as an expression
+- A function literal is an unnamed function, it is used as an expression
 
 2. What is the constructor?
 
--A constructor is a function to make an object. Used when working with prototype objects.
+- A constructor is a function to make an object. Used when working with prototype objects.
 
 3. What does the return statement do?
 
-The return statement stops the functions execution and returns a value.
+- The return statement stops the functions execution and returns a value.
 
 4. What will be written to the console from this function:
 		function myFunction(){
@@ -19,25 +19,25 @@ The return statement stops the functions execution and returns a value.
 		}
 		myFunction();
 
-Since we have a return function on the first console.log it will return "inside my function".
+-Since we have a return function on the first console.log it will return "inside my function".
 
 5. Briefly describe scope in JavaScript.
 
-In JavaScript we have two scopes, Global and Local.
-Global is when a variable is declared outside a function, like in the start of the document. 
-It will be available for the rest of the document.
+- In JavaScript we have two scopes, Global and Local.
+  Global is when a variable is declared outside a function, like in the start of the document. 
+  It will be available for the rest of the document.
 
-Local is when a variable is set inside a function. It will then not be available outside the function.
+  Local is when a variable is set inside a function. It will then not be available outside the function.
 
-Global example:
-var myGlobalVariable = something;
-function myFunction() {
-	"function black magic that uses myGlobalVariable"
-};
+  Global example:
+  var myGlobalVariable = something;
+  function myFunction() {
+  	"function black magic that uses myGlobalVariable"
+  };
 
-Local example:
-function myFunction() {
-	var myLocalVariable = "This is a local variable that is not available outside the function";
-};
+  Local example:
+  function myFunction() {
+  	var myLocalVariable = "This is a local variable that is not available outside the function";
+  };
 
 
